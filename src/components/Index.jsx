@@ -1,7 +1,6 @@
 import React from 'react'
 import Container from 'react-bootstrap/Container'
 import Bg from '../img/bg.jpg'
-import 'bootstrap/dist/css/bootstrap.min.css'
 import Image from 'react-bootstrap/Image'
 import Services from './Services'
 import Plans from './Plans'
