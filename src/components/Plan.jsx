@@ -46,6 +46,7 @@ const Plan = () => {
               </Row>
               ):''
             }
+            
     </Container>
   )
 }
