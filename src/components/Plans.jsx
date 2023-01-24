@@ -13,7 +13,7 @@ const Plans = () => {
                 <Row className='pt-5 pb-5 text-center'>
                 <Col className='d-flex justify-content-center mb-3'>
                     <a className='cardA' href='/plan/Basico' style={{textDecoration: 'none', color: 'black'}}>
-                        <Card style={{height: '31rem', minWidth:'15rem', maxWidth:'15rem', borderStyle:'solid',borderWidth:'5px', borderColor: '#3c3c3c' }}>
+                        <Card style={{height: '31rem', minWidth:'15rem', maxWidth:'15rem', borderStyle:'solid',borderWidth:'5px', borderColor: '#3c3c3c', borderRadius:'10px' }}>
                         <Card.Body>
                             <Card.Title className='mt-4 mb-5 text-center'>Plan Básico</Card.Title>
                             <div>
@@ -32,7 +32,7 @@ const Plans = () => {
                 </Col>
                 <Col className='d-flex justify-content-center mb-3'>
                     <a className='cardA' href='/plan/Medio' style={{textDecoration: 'none', color: 'black'}}>
-                        <Card style={{height: '31rem', minWidth:'15rem', maxWidth:'15rem', borderStyle:'solid',borderWidth:'5px', borderColor: '#3c3c3c' }}>
+                        <Card style={{height: '31rem', minWidth:'15rem', maxWidth:'15rem', borderStyle:'solid',borderWidth:'5px', borderColor: '#3c3c3c', borderRadius:'10px'}}>
                             <Card.Body>
                                 <Card.Title className='mt-4 mb-5 text-center'>Plan Medio</Card.Title>
                                 <div>
@@ -52,7 +52,7 @@ const Plans = () => {
                 </Col>
                 <Col className='d-flex justify-content-center mb-3'>
                     <a className='cardA' href='/plan/Avanzado' style={{textDecoration: 'none', color: 'black'}}>
-                        <Card style={{height: '31rem', minWidth:'15rem', maxWidth:'15rem', borderStyle:'solid', borderRadius:'10px', borderWidth:'5px', borderColor: '#3c3c3c'}}>
+                        <Card style={{height: '31rem', minWidth:'15rem', maxWidth:'15rem', borderStyle:'solid', borderRadius:'10px', borderWidth:'5px', borderColor: '#3c3c3c', borderRadius:'10px' }}>
                         <Card.Body>
                             <Card.Title className='mt-4 mb-5 text-center'>Plan Avanzado</Card.Title>
                             <div>
