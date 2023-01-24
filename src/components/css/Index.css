@@ -1,0 +1,9 @@
+.bgImage{
+    animation: 1s arriba ease-in-out;
+}
+
+@keyframes arriba{
+    0%{
+        transform: translateY(50%);
+    }
+}

@@ -33,17 +33,19 @@ const Contact = () => {
     }
 
     return (<>
-    {
+        {
             alerta === 'error'
-            ? (<Alert variant='danger' className='ms-auto mt-5' style={{position: 'absolute', left: '2%'}}>
+            ? 
+            (<Alert variant='danger' className='mx-auto mt-5 text-center' style={{position: 'absolute', left: '0', right:'0', width: '40%'}}>
                 Error. Debe llenar todos los campos.
             </Alert>)
             : alerta === 'enviado'
-                ?
-                (<Alert variant='success' className='ms-auto mt-5' style={{position: 'absolute', left: '2%'}}>
-                    Mensaje enviado correctamente.
-                </Alert>)
-                : ''
+            
+            ?
+            (<Alert variant='success' className='mx-auto mt-5' style={{position: 'absolute', left: '0', right:'0', width:'40%'}}>
+                Mensaje enviado correctamente.
+            </Alert>)
+            : ''
         }
         <Form className='text-center' id='contacto' style={{paddingTop: '8rem', paddingBottom: '5rem'}} onSubmit={send}>
         
